@@ -84,6 +84,7 @@ public class StatementPrinter {
         return totalAmount;
     }
 
+    // Helper function 2.4
     private int getTotalVolumeCredits() {
         int volumeCredits = 0;
         for (Performance p : invoice.getPerformances()) {
