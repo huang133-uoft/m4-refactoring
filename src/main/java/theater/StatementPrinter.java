@@ -92,6 +92,8 @@ public class StatementPrinter {
         return volumeCredits;
     }
 
+
+    // Helper function usd
     private static String usd(int totalAmount) {
         final NumberFormat frmt = NumberFormat.getCurrencyInstance(Locale.US);
         return frmt.format(totalAmount / Constants.PERCENT_FACTOR);
