@@ -76,6 +76,7 @@ public class StatementPrinter {
         return result.toString();
     }
 
+    // Helper function getTotalAmount
     private int getTotalAmount() {
         int totalAmount = 0;
         for (Performance p : invoice.getPerformances()) {
