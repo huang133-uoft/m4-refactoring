@@ -45,13 +45,13 @@ public class StatementPrinter {
         }
 
         final int totalAmount = getTotalAmount();
-        final int totalVolumnCredits = getTotalVolumeCredits();
+        final int totalVolumeCredits = getTotalVolumeCredits();
 
         return new StatementData(
                 invoice.getCustomer(),
                 performanceDataList,
                 totalAmount,
-                totalVolumnCredits
+                totalVolumeCredits
         );
     }
 
