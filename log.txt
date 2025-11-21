@@ -1,6 +1,9 @@
-Task 1.1
-Task 1.2
-Task 2.1
-Task 2.2
-Task 2.3
-Task 2.4
+f914c57 Task 2.4
+f2d3641 Task 2.3
+c15af4e task 2.3
+dd2a9c8 task 2.3
+21a5611 task 2.2
+99db4cf task 2.1
+96a65f3 task 1.2
+343fe99 task 1-2
+a59f67d Initial commit
