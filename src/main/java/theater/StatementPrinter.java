@@ -97,6 +97,7 @@ public class StatementPrinter {
         return frmt.format(totalAmount / Constants.PERCENT_FACTOR);
     }
 
+    // Helper function getVolumeCredits
     private int getVolumeCredits(Performance performance) {
         int result = 0;
         result += Math.max(performance.getAudience() - Constants.BASE_VOLUME_CREDIT_THRESHOLD, 0);
